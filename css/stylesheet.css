@@ -1,0 +1,113 @@
+
+body {
+    background-color: brown;
+}
+
+a{
+    color: aliceblue;
+}
+
+.MenuBar{
+    position:absolute;
+    height: 40px;
+    width: 500px;
+    top: 10%;
+    left: 20%;
+    background-image: url(../assets/Fire.jpeg);
+}
+
+.dogBox{
+    position: absolute;
+    height:20px;
+    width: 80px;
+    top: 25%;
+    left: 5%;
+    background-color: black;
+
+}
+.dogSite{
+    text-align: center;
+   
+}
+
+
+
+.catBox{
+    position: absolute;
+    height:20px;
+    width: 80px;
+    top: 25%;
+    left: 30%;
+    background-color: black;
+}
+.catSite{
+    text-align: center;
+ 
+}
+
+.fishingBox{
+    position: absolute;
+    height:20px;
+    width: 80px;
+    top: 25%;
+    left: 55%;
+    background-color: black;
+}
+.fishingSite{
+    text-align: center;
+ 
+}
+
+.homeBox{
+    position: absolute;
+    height:20px;
+    width: 80px;
+    top: 25%;
+    left: 80%;
+    background-color: black;
+}
+.Home{
+    text-align: center;
+
+}
+
+.Biography{
+    Position: absolute;
+    left: 45%;
+    top: 25%;
+    height: 300px;
+    width: 200px;
+    text-align: center;
+    outline: 4px dashed black;
+    box-shadow: 0 0 0 4px grey;
+    
+
+}
+
+
+
+img#Self4head{
+    Position: absolute;
+    Top: 160px;
+    left: 75px;
+    height: 300px;
+    width: 300px;
+    opacity: 1; /* initial opacity of 0% */
+   
+
+}
+
+img#Self{
+    position: absolute;
+    Top:160px;
+    left: 75px;
+    height: 300px;
+    width: 300px;
+    opacity: 1; /* initial opacity of 100% */
+    transition: opacity 1s; /* transition over 1 second */
+    
+}
+
+img#Self:hover {
+    opacity:0;
+  }
