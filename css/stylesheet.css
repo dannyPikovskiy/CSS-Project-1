@@ -1,14 +1,13 @@
-
 body {
     background-color: brown;
 }
 
-a{
+a {
     color: aliceblue;
 }
 
-.MenuBar{
-    position:absolute;
+.MenuBar {
+    position: absolute;
     height: 40px;
     width: 500px;
     top: 10%;
@@ -16,62 +15,80 @@ a{
     background-image: url(../assets/Fire.jpeg);
 }
 
-.dogBox{
+.dogBox {
     position: absolute;
-    height:20px;
+    height: 20px;
     width: 80px;
     top: 25%;
     left: 5%;
     background-color: black;
 
 }
-.dogSite{
+
+.dogSite {
     text-align: center;
-   
+
 }
 
+.dogSite:hover {
+    filter: blur(1px);
+}
 
-
-.catBox{
+.catBox {
     position: absolute;
-    height:20px;
+    height: 20px;
     width: 80px;
     top: 25%;
     left: 30%;
     background-color: black;
 }
-.catSite{
+
+.catSite {
     text-align: center;
- 
+
 }
 
-.fishingBox{
+.catSite:hover {
+    filter: blur(1px);
+}
+
+.fishingBox {
     position: absolute;
-    height:20px;
+    height: 20px;
     width: 80px;
     top: 25%;
     left: 55%;
     background-color: black;
 }
-.fishingSite{
+
+.fishingSite {
     text-align: center;
- 
+
 }
 
-.homeBox{
+.fishingSite:hover {
+    filter: blur(1px);
+}
+
+.homeBox {
     position: absolute;
-    height:20px;
+    height: 20px;
     width: 80px;
     top: 25%;
     left: 80%;
     background-color: black;
 }
-.Home{
+
+.Home {
     text-align: center;
 
 }
 
-.Biography{
+.Home:hover {
+    filter: blur(1px);
+}
+
+.Biography {
     Position: absolute;
     left: 45%;
     top: 25%;
@@ -80,34 +97,86 @@ a{
     text-align: center;
     outline: 4px dashed black;
     box-shadow: 0 0 0 4px grey;
-    
+
 
 }
 
+.SubHeading1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 40px;
+    width: 70px;
+}
 
-
-img#Self4head{
+img#Self4head {
     Position: absolute;
     Top: 160px;
     left: 75px;
     height: 300px;
     width: 300px;
-    opacity: 1; /* initial opacity of 0% */
-   
+    opacity: 1;
+    /* initial opacity of 0% */
+
 
 }
 
-img#Self{
+img#Self {
     position: absolute;
-    Top:160px;
+    Top: 160px;
     left: 75px;
     height: 300px;
     width: 300px;
-    opacity: 1; /* initial opacity of 100% */
-    transition: opacity 1s; /* transition over 1 second */
-    
+    opacity: 1;
+    /* initial opacity of 100% */
+    transition: opacity 1s;
+    /* transition over 1 second */
+
 }
 
 img#Self:hover {
-    opacity:0;
-  }
+    opacity: 0;
+}
+
+.SubHeading1 {
+    position: absolute;
+    top: 450px;
+    left: 130px;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+
+}
+
+img#Cat {
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    top: 150px;
+    left: 100px;
+
+}
+
+img#Dog {
+    position: absolute;
+    height: 500px;
+    width: 450px;
+    top: 150px;
+    left: 100px;
+}
+
+img#Sigma {
+    position: absolute;
+    height: 500px;
+    width: 600px;
+    top: 150px;
+    left: 100px;
+}
+
+.Link {
+    position: absolute;
+    top: 3%;
+    left: 20%;
+    filter: blur(2px);
+
+}
